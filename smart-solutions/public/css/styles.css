@@ -1,0 +1,174 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topPageContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-size: 25px;
+}
+
+main{
+    height: 1000px;
+}
+
+footer, header{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #0058a3;
+    padding: 10px;
+    margin: 20px;
+}
+
+header{
+    justify-content: center;
+}
+
+
+
+header a{
+    text-decoration: none;
+    color: #ffdb00;
+    font-size: 30px !important;
+    margin: 5px;
+    box-shadow:0 0 0 5px #0058a3;
+}
+
+header a:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    color: #0058a3;
+    font-size: 30px !important;
+    background-color: #ffdb00;
+    box-shadow: 0 0 0 5px #ffdb00;
+}
+
+h1{
+    color: #ffdb00;
+}
+
+p{
+    color: #f0d001;
+}
+
+.formContainer {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.formContainer label {
+    font-weight: bold;
+    color: #ebcc03;
+}
+
+.formContainer input,
+.formContainer textarea,
+.formContainer button,
+.formContainer select
+{
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formContainer button {
+    font-size: 15px;
+    background-color: #0058a3;
+    color: #ffdb00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formContainer button:hover {
+    background-color: #003366;
+}
+
+.navContainer img{
+    width: 200px;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+/* about */
+
+.dynamicImgContainer{
+    width: 80%;
+    margin: 50px;
+}
+
+.dynamicImgContainer img{
+    transition: all 0.2s ease;
+    width: 1000px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329);
+}
+
+.dynamicImgContainer img:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.01);
+}
+
+.infoBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.infoBoxHome{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    width: 80%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.locationBox{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.locationBox h1, p{
+    margin: 0;
+}
+
+.textBoxQuote{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.textBoxQuote h4{
+    font-weight: bold;
+    margin: 0;
+    font-size: smaller;
+}
+
+.textBoxQuote h1{
+    margin: 0 !important;
+}
